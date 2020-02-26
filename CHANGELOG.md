@@ -1,6 +1,8 @@
 # Change Log
 
-## 0.1
+## 0.3
+* mvn rel [17f9726](17f972641a18592128f95401fde33dd014993f89)
+* mvn rel [46b1497](46b1497217ac122fd05ce8ba76b9dc1218d98eae)
 * mvn rel [983ee9c](983ee9c26e9f8a76580da3fe817830583baf943d)
 * mvn rel [978b006](978b0064bc8dd192d875dbee4990c2d008d2c4db)
 * Maven-compile instead of install for build-step [f4df24b](f4df24b533fb7f09b72ced40f377f0bd5390f20f)

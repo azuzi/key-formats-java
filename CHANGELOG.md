@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.3
+## 0.4-SNAPSHOT
 * mvn rel [17f9726](17f972641a18592128f95401fde33dd014993f89)
 * mvn rel [46b1497](46b1497217ac122fd05ce8ba76b9dc1218d98eae)
 * mvn rel [983ee9c](983ee9c26e9f8a76580da3fe817830583baf943d)

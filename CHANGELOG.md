@@ -1,6 +1,7 @@
 # Change Log
 
-## 0.4
+## 0.5-SNAPSHOT
+* Latest Release @{project.version} prepare release v0.4 [3ff69c4](3ff69c442e105d4685b953d69faecf0e46e489f2)
 * Release message update [3490b7b](3490b7b5923c093ac306ad6eaa7491bce649c5f2)
 * mvn rel [17f9726](17f972641a18592128f95401fde33dd014993f89)
 * mvn rel [46b1497](46b1497217ac122fd05ce8ba76b9dc1218d98eae)

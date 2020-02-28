@@ -1,6 +1,11 @@
 # Change Log
 
-## 0.5-SNAPSHOT
+## 0.5
+* Change log update2 [f7f2f0a](f7f2f0ab700a8fc616b4683b4a521029b4c6b95d)
+* Change log update [f627126](f6271264ec5afbef8f4f88c9bad84e5b2790be47)
+* Change log update [a1188d5](a1188d5c84fd86e4a56e9fcec8b896d4b14caefd)
+* Change log update [3e1d399](3e1d3990a15456adb6d135bf7d00ae9f79f84456)
+* Latest Release @{project.version} prepare for next development iteration [df775d1](df775d11d5efdfcb30923daf2cb69594755fb508)
 * Latest Release @{project.version} prepare release v0.4 [3ff69c4](3ff69c442e105d4685b953d69faecf0e46e489f2)
 * Release message update [3490b7b](3490b7b5923c093ac306ad6eaa7491bce649c5f2)
 * mvn rel [17f9726](17f972641a18592128f95401fde33dd014993f89)

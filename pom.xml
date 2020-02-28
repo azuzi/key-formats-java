@@ -4,7 +4,7 @@
 	<groupId>com.danubetech</groupId>
 	<artifactId>key-formats-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.25-SNAPSHOT</version>
+	<version>0.1.25-SNAPSHOT</version>
 	<name>key-formas-java</name>
 
 	<issueManagement>

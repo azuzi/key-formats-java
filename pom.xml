@@ -86,6 +86,7 @@
 				<groupId>info.plichta.maven.plugins</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>0.5.1</version>
+				<ignoreOlderThen>2020-02-01 00:00:00</ignoreOlderThen>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

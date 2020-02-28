@@ -1,6 +1,7 @@
 # Change Log
 
-## 0.20
+## 0.21
+* Next Release @{project.version} [cd94981](cd94981c8afb855696dab2d1a6a680e8533bad34)
 * Next Release v0.19 [4710981](47109819747ee2f3c45cf632ac3f267feb0d7f09)
 * Next Release 0.18-SNAPSHOT [9fae4a7](9fae4a70a8661dbe38ce9daba9f83188f236c1ca)
 * Next Release 0.17-SNAPSHOT [37a8584](37a8584fb219c339b5f5091e7953ea8db3148bbf)

@@ -82,12 +82,15 @@
 					<includeScope>runtime</includeScope>
 				</configuration>
 			</plugin>
-<!--			<plugin>
+			<plugin>
 				<groupId>info.plichta.maven.plugins</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>0.5.1</version>
+				<configuration>
+					<excludeCommits>^\\[maven-release-plugin\\].*^,^\\add.*^</excludeCommits>
+				</configuration>
 			</plugin>
--->			<plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>3.0.0-M1</version>

@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.5
+## 0.6-SNAPSHOT
 * Change log update2 [f7f2f0a](f7f2f0ab700a8fc616b4683b4a521029b4c6b95d)
 * Change log update [f627126](f6271264ec5afbef8f4f88c9bad84e5b2790be47)
 * Change log update [a1188d5](a1188d5c84fd86e4a56e9fcec8b896d4b14caefd)

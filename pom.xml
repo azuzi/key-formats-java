@@ -87,7 +87,7 @@
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>0.5.1</version>
 				<configuration>
-					<excludeCommits>^\\[maven-release-plugin\\].*^,^\\add.*^</excludeCommits>
+					<excludeCommits>^\\[maven-release-plugin\\].*^,^\\add.*^,^\\mvn.*^,^\\change.*^</excludeCommits>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -98,6 +98,7 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment>
 					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version} ${line.separator}Released 2020.02.28${line.separator}Changelog removed and Release Message updated</scmCommentPrefix>
+					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
 					<pomFileName>pom.xml</pomFileName>
 				</configuration>
 				<dependencies>

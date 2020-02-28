@@ -1,5 +1,6 @@
 # Change Log
 
-## 0.17
+## 0.18
+* Next Release 0.17-SNAPSHOT [37a8584](37a8584fb219c339b5f5091e7953ea8db3148bbf)
 * Next Release 0.16-SNAPSHOT [e467767](e467767fdb71dbd7955900a12c04c2bae0b4a500)
 

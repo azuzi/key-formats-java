@@ -99,7 +99,7 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<!--scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment-->
 					<scmReleaseCommitComment>Current Release @{releaseLabel}</scmReleaseCommitComment>
-					<scmDevelopmentCommitComment>Next Release @{releaseLabel}</scmDevelopmentCommitComment>
+					<scmDevelopmentCommitComment>Next Release @{project.version}</scmDevelopmentCommitComment>
 					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version}</scmCommentPrefix>
 					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
 					<pomFileName>pom.xml</pomFileName>

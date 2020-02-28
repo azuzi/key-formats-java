@@ -93,10 +93,8 @@
 				<version>3.0.0-M1</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<scmCommentPrefix xml:space="preserve">Latest Release@{project.version}</scmCommentPrefix>
+					<scmCommentPrefix xml:space="preserve">Latest Release@${project.version}</scmCommentPrefix>
 					<pomFileName>pom.xml</pomFileName>
-					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
-					<completionGoals>git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md"</completionGoals>
 				</configuration>
 				<dependencies>
 					<dependency>

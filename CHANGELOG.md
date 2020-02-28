@@ -1,6 +1,7 @@
 # Change Log
 
-## Next Release 0.23
+## Last Release 0.24
+* Current Release v0.23 [7950bc5](7950bc54b74f9dbb9cb1e62450d1d87b06f2a222)
 * Current Release v0.22 [d097f9f](d097f9f10214e7f4bbfb614c23a25de7f1af2cf8)
 * Current Release v0.21 [d007f3c](d007f3ca775d57f4c7246aba73d97ab41ffc54c2)
 * Current Release v0.20 [8d2f45a](8d2f45a18bd2dc4ca485d807f84ded2181e0daa8)

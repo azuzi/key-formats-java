@@ -88,7 +88,7 @@
 				<version>0.5.1</version>
 				<configuration>
 					<includeCommits>Current.*</includeCommits>
-					<nextRelease>Next Release ${project.version}</nextRelease>
+					<nextRelease>Last Release ${project.version}</nextRelease>
 					<!--includeCommits>Next.*</includeCommits-->
 				</configuration>
 			</plugin>
@@ -99,9 +99,9 @@
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<!--scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment-->
+					<!--scmDevelopmentCommitComment>Next Release ${project.version}</scmDevelopmentCommitComment>
+					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version}</scmCommentPrefix-->
 					<scmReleaseCommitComment>Current Release @{releaseLabel}</scmReleaseCommitComment>
-					<scmDevelopmentCommitComment>Next Release ${project.version}</scmDevelopmentCommitComment>
-					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version}</scmCommentPrefix>
 					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
 					<pomFileName>pom.xml</pomFileName>
 				</configuration>

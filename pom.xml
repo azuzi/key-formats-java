@@ -93,6 +93,7 @@
 				<version>3.0.0-M1</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
+					<scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment>
 					<scmCommentPrefix xml:space="preserve">Latest Release $@{project.version} ${line.separator}Released 2020.02.28${line.separator}Changelog removed and Release Message updated</scmCommentPrefix>
 					<pomFileName>pom.xml</pomFileName>
 				</configuration>

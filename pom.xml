@@ -87,7 +87,7 @@
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>0.5.1</version>
 				<configuration>
-					<!--includeCommits>Current.*</includeCommits-->
+					<includeCommits>Current.*</includeCommits>
 					<nextRelease>Last Release ${project.version}</nextRelease>
 					<toRef>HEAD</toRef>
 				</configuration>
@@ -100,9 +100,10 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<!--scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment-->
 					<!--scmDevelopmentCommitComment>Next Release ${project.version}</scmDevelopmentCommitComment>
-					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version}</scmCommentPrefix-->
+					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version}</scmCommentPrefix>
+					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals-->
 					<scmReleaseCommitComment>Current Release @{releaseLabel}</scmReleaseCommitComment>
-					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
+
 					<pomFileName>pom.xml</pomFileName>
 				</configuration>
 				<dependencies>
@@ -112,7 +113,7 @@
 						<version>1.8.1</version>
 					</dependency>
 				</dependencies>
-			</plugin>	
+			</plugin>
 		</plugins>
 
 	</build>

@@ -88,8 +88,8 @@
 				<version>0.5.1</version>
 				<configuration>
 					<!--includeCommits>Current.*</includeCommits>
-					<nextRelease>Last Release ${project.version}</nextRelease>
-					<toRef>0.1.x</toRef-->
+					<nextRelease>Last Release ${project.version}</nextRelease-->
+					<toRef>test2</toRef>
 				</configuration>
 			</plugin>
 			<plugin>

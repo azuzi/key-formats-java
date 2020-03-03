@@ -88,8 +88,8 @@
 				<version>0.5.1</version>
 				<configuration>
 
-					<includeCommits>Current.*</includeCommits>
-					<!--includeCommits>versio.*</includeCommits-->
+					<!--includeCommits>Current.*</includeCommits>
+					<includeCommits>versio.*</includeCommits-->
 					<nextRelease>Last Release ${project.version}</nextRelease>
 					<!--includeCommits>Next.*</includeCommits-->
 					<ignoreOlderThen>2020-02-25 00:00:00</ignoreOlderThen>

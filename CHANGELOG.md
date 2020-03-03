@@ -1,82 +1,57 @@
-# Change Log
+# Changelog
+Changelog of My Project.
 
-## 0.1.22
-* Current Release v0.24 [ac2e61d](ac2e61dc5ab69227b81dfcb07fc21b78b10b30d6)
-* CHangelog Message update [43d4ed9](43d4ed98a88a73078453871586f6f4e4525ebaad)
-* Next Release 0.23-SNAPSHOT [1096729](10967292ff06d4f51c874242b77cbce3c4884f47)
-* Current Release v0.23 [7950bc5](7950bc54b74f9dbb9cb1e62450d1d87b06f2a222)
-* CHangelog Message update [cb58c96](cb58c96eb9cc88f02f6af8416a2d1758c382f104)
-* Next Release 0.22-SNAPSHOT [e1a4419](e1a44193c68a596d76bccdf73b4860e609b59d47)
-* Current Release v0.22 [d097f9f](d097f9f10214e7f4bbfb614c23a25de7f1af2cf8)
-* CHangelog Message update [83dc07c](83dc07cb4fb8fd354798b7fa3890b845938b2148)
-* Next Release 0.21-SNAPSHOT [fae716a](fae716aa8f779dd51442bc1173bc58d2315b9874)
-* Current Release v0.21 [d007f3c](d007f3ca775d57f4c7246aba73d97ab41ffc54c2)
-* CHangelog Message update [2e99d2a](2e99d2a913c39650d6398fd7083e481a25a8d68b)
-* Next Release @{project.version} [cd94981](cd94981c8afb855696dab2d1a6a680e8533bad34)
-* Current Release v0.20 [8d2f45a](8d2f45a18bd2dc4ca485d807f84ded2181e0daa8)
-* CHangelog Message update [cbee104](cbee104f24610d8f3ff9bab4c515e47a25535af2)
-* Next Release v0.19 [4710981](47109819747ee2f3c45cf632ac3f267feb0d7f09)
-* Current Release v0.19 [fad8e23](fad8e233e293062c86d4d2f3ef8016362b09a4fa)
-* CHangelog Message update [cb1a29b](cb1a29be271c8e601012abf5c80f1305f9c75171)
-* Next Release 0.18-SNAPSHOT [9fae4a7](9fae4a70a8661dbe38ce9daba9f83188f236c1ca)
-* Current Release v0.18 [dfc4d12](dfc4d12e332e813f62a074a719da540465238613)
-* CHangelog Message update [f0b430e](f0b430e083271bd9a9998363147f71539ecb1aef)
-* Next Release 0.17-SNAPSHOT [37a8584](37a8584fb219c339b5f5091e7953ea8db3148bbf)
-* Current Release 0.17-SNAPSHOT [ddb9f63](ddb9f63b35d60b02985f70d1345bbbd84557a512)
-* CHangelog Message update [73c5192](73c519201d3e199b4b1eabf00b436bef9029f407)
-* Next Release 0.16-SNAPSHOT [e467767](e467767fdb71dbd7955900a12c04c2bae0b4a500)
-* Current Release 0.16-SNAPSHOT [a45beb8](a45beb8e5400a2934cfdc76bed452d2cd2c55c80)
-* New change log [0d82913](0d829137a1b7f16a168edb5786e8d91f1e68abb0)
-* Latest Release 0.15-SNAPSHOT prepare for next development iteration [e694514](e69451449fa149f5e1bc2f77158c21a65f6a8aa5)
-* Latest Release 0.15-SNAPSHOT prepare release v0.15 [992f479](992f479aeb2ff1c339665d8e32440cd57cc166d7)
-* Changelog removed and Release message updated [782729f](782729fb3828490eeb8effe5876d8be37c7f9b2d)
-* Latest Release 0.14-SNAPSHOT prepare for next development iteration [66b1d94](66b1d941b72381007ed717e3ae7ae3f922c3a85f)
-* Latest Release 0.14-SNAPSHOT prepare release v0.14 [0bc64a7](0bc64a75265e6356cd457b581594914f64d6f0f6)
-* Changelog removed and Release message updated [972d488](972d48842237caabc19d87a88669d7a2a9e292cd)
-* Latest Release 0.13-SNAPSHOT Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [f82a8eb](f82a8ebf8352f75511be112aea2b527384c6aea5)
-* Latest Release @{project.version} [2203008](2203008d76790d472fe2b11c34c11e4aac638e04)
-* Changelog removed and Release message updated [f87c9f3](f87c9f302fc702f24f2c14369f678e702a80fa86)
-* Latest Release 0.12-SNAPSHOT Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [d08bf74](d08bf749872bbc63cf60b7039268ac84ccfd13c7)
-* Latest Release @{project.version} [e01b459](e01b459b40acb2b3536ae43cee9e24d52d4560e3)
-* Changelog removed and Release message updated [095cdc3](095cdc3088d32fbb2b8a44f17da8f1c60be51e1c)
-* Latest Release 0.11-SNAPSHOT Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [130ba94](130ba94cdeda921f1438462cdca2bc7c5aac9a17)
-* Latest Release @{project.version} [e130bc5](e130bc57296a759fd080ac4eaf071a537307ce44)
-* Changelog removed and Release message updated [07873bd](07873bd460e7d29215370cc1b6eae141343368b2)
-* Latest Release $@{project.version} Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [d14a1aa](d14a1aacf1b6a105ef577f201bc2058fb618f994)
-* Latest Release @{project.version} [8d8ac2c](8d8ac2c726d34baf7fafa3f43c262db491b63b21)
-* Changelog removed and Release message updated [ffa36ee](ffa36eef56285983c760197d894db8f95dbf5f1d)
-* Latest Release $@{project.version} Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [787d83e](787d83e23898ae9bc146bf8a9d52d2e3b253dd7e)
-* Latest Release $@{project.version} Released 2020.02.28 Changelog removed and Release Message updated prepare release v0.9 [9769126](9769126ef2b47980d2f7a2b91d0e307186df86a5)
-* Changelog removed and Release message updated [4825aa5](4825aa502717f31d520ba1f87f9b6b7df372f2ea)
-* Latest Release 0.8-SNAPSHOT Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [006582a](006582a26b607124217d94f1c28cdfd547c1e38c)
-* Latest Release 0.8-SNAPSHOT Released 2020.02.28 Changelog removed and Release Message updated prepare release v0.8 [9d410c1](9d410c184be3021aacc7705db908b38448fd0ac7)
-* Changelog removed and Release message updated [5217825](5217825025076df53a9832b5ce0432e57e83e890)
-* Latest Release 0.1.7 Released 2020.02.28 Changelog removed and Release Message updated prepare for next development iteration [0a22404](0a22404234d8f6ddf483bced98bc30a8711a09a9)
-* Latest Release 0.1.7 Released 2020.02.28 Changelog removed and Release Message updated prepare release v0.7 [7e916df](7e916df43c1d04abd1641d486f3c9a0ccae4d6b3)
-* Changelog removed and Release message updated [16bebb0](16bebb00c19eee6aba47c723df7f50948353ccec)
-* Latest Release 0.6-SNAPSHOT prepare for next development iteration [68de6f3](68de6f3406c09b4d9ffeddd8b08e4ea9d2380deb)
-* Latest Release 0.6-SNAPSHOT prepare release v0.6 [4e8e4a9](4e8e4a9da4179b67825d32fdb48947bd17d97341)
-* Change log update2 [905c095](905c0951b30857df89babb59df05a3ed837e4c53)
-* Change log update2 [96eb38c](96eb38cd10223657bffb816b6c4ecf3e9ea1961a)
-* Latest Release @{project.version} prepare for next development iteration [a0fc2f0](a0fc2f043585f7ab3529708d66e9ce4b358d9792)
-* Change log update2 [f7f2f0a](f7f2f0ab700a8fc616b4683b4a521029b4c6b95d)
-* Change log update [f627126](f6271264ec5afbef8f4f88c9bad84e5b2790be47)
-* Change log update [a1188d5](a1188d5c84fd86e4a56e9fcec8b896d4b14caefd)
-* Change log update [3e1d399](3e1d3990a15456adb6d135bf7d00ae9f79f84456)
-* Latest Release @{project.version} prepare for next development iteration [df775d1](df775d11d5efdfcb30923daf2cb69594755fb508)
-* Latest Release @{project.version} prepare release v0.4 [3ff69c4](3ff69c442e105d4685b953d69faecf0e46e489f2)
-* Release message update [3490b7b](3490b7b5923c093ac306ad6eaa7491bce649c5f2)
-* mvn rel [17f9726](17f972641a18592128f95401fde33dd014993f89)
-* mvn rel [46b1497](46b1497217ac122fd05ce8ba76b9dc1218d98eae)
-* mvn rel [983ee9c](983ee9c26e9f8a76580da3fe817830583baf943d)
-* mvn rel [978b006](978b0064bc8dd192d875dbee4990c2d008d2c4db)
-* Maven-compile instead of install for build-step [f4df24b](f4df24b533fb7f09b72ced40f377f0bd5390f20f)
-* Added GitHub CI/CD config [9474e32](9474e3299e9529121b429319675c1604389bd2c3)
-* Added GitLab CI/CD config [3163dc3](3163dc362225f2b260acc3705290058e15409985)
-* Correctly convert ed25519/x25519 keys. [90cd5ef](90cd5efc3c0458733838fafb04955f0d1b58b7a2)
-* &quot;Native&quot; Ed25519 private keys also include the public key. [2beb76b](2beb76bc61e00edd8fffdeb63cda68ae8f284c61)
-* Return more specific subclasses. [f900622](f900622abbe6325df5bdb58c799beb811b6e6688)
-* More debug logging. [d4f62a7](d4f62a7aee4634e33a8a48ecee756fbb1992181d)
-* Additional method. [6e4c839](6e4c839026a5a07260430188ff3dbfb4b30d22a1)
-* Initial commit. [613c6c4](613c6c4153ca4db551b656402b096d7e9de467ab)
+## Unreleased
+### No issue
+
+**mvn rel**
+
+
+[978b0064bc8dd19](https://github.com/azuzi/key-formats-java/commit/978b0064bc8dd19) Ahamed Azeem *2020-02-26 18:24:07*
+
+**Maven-compile instead of install for build-step**
+
+
+[f4df24b533fb7f0](https://github.com/azuzi/key-formats-java/commit/f4df24b533fb7f0) Philipp Potisk *2020-01-27 14:39:30*
+
+**Added GitHub CI/CD config**
+
+
+[9474e3299e95291](https://github.com/azuzi/key-formats-java/commit/9474e3299e95291) Philipp Potisk *2020-01-27 14:13:09*
+
+**Added GitLab CI/CD config**
+
+
+[3163dc362225f2b](https://github.com/azuzi/key-formats-java/commit/3163dc362225f2b) Philipp Potisk *2020-01-27 14:09:03*
+
+**Correctly convert ed25519/x25519 keys.**
+
+ * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
+
+[90cd5efc3c04587](https://github.com/azuzi/key-formats-java/commit/90cd5efc3c04587) Markus Sabadello *2020-01-15 11:06:07*
+
+**"Native" Ed25519 private keys also include the public key.**
+
+ * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
+
+[2beb76bc61e00ed](https://github.com/azuzi/key-formats-java/commit/2beb76bc61e00ed) Markus Sabadello *2020-01-15 09:04:02*
+
+**Return more specific subclasses.**
+
+ * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
+
+[f900622abbe6325](https://github.com/azuzi/key-formats-java/commit/f900622abbe6325) Markus Sabadello *2020-01-10 12:12:29*
+
+**More debug logging.**
+
+ * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
+
+[d4f62a7aee4634e](https://github.com/azuzi/key-formats-java/commit/d4f62a7aee4634e) Markus Sabadello *2019-12-12 10:50:21*
+
+**Additional method.**
+
+ * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
+
+[6e4c839026a5a07](https://github.com/azuzi/key-formats-java/commit/6e4c839026a5a07) Markus Sabadello *2019-12-11 11:50:57*
+
 

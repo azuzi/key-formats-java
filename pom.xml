@@ -92,6 +92,7 @@
 					<!--includeCommits>versio.*</includeCommits-->
 					<nextRelease>Last Release ${project.version}</nextRelease>
 					<!--includeCommits>Next.*</includeCommits-->
+					<ignoreOlderThen>2020-02-25 00:00:00</ignoreOlderThen>
 				</configuration>
 			</plugin>
 			<plugin>

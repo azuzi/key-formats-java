@@ -87,7 +87,8 @@
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>0.5.1</version>
 				<configuration>
-					<includeCommits>versio.*</includeCommits>
+					<includeCommits>New.*</includeCommits>
+					<includeCommits>Current.*</includeCommits>
 					<!--includeCommits>versio.*</includeCommits-->
 					<nextRelease>Last Release ${project.version}</nextRelease>
 					<!--includeCommits>Next.*</includeCommits-->

@@ -4,7 +4,7 @@
 	<groupId>com.danubetech</groupId>
 	<artifactId>key-formats-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.26-SNAPSHOT</version>
+	<version>0.1.26</version>
 	<name>key-format-java</name>
 
 	<issueManagement>
@@ -17,7 +17,7 @@
 		<url>https://github.com/azuzi/key-formats-java</url>
 		<connection>scm:git:git://github.com/azuzi/key-formats-java.git</connection>
 		<developerConnection>scm:git:git@github.com:azuzi/key-formats-java.git</developerConnection>
-    <tag>v0.1.14</tag>
+    <tag>v0.1.26</tag>
   </scm>
 
 	<distributionManagement>

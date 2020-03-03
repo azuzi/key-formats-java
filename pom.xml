@@ -88,7 +88,7 @@
 				<version>0.5.1</version>
 				<configuration>
 
-					<includeCommits>Current.* | New.*</includeCommits>
+					<includeCommits>Current.* || New.*</includeCommits>
 					<!--includeCommits>versio.*</includeCommits-->
 					<nextRelease>Last Release ${project.version}</nextRelease>
 					<!--includeCommits>Next.*</includeCommits-->

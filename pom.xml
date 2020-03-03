@@ -5,7 +5,7 @@
 	<artifactId>key-formats-java</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1.14-SNAPSHOT</version>
-	<name>key-formas-java</name>
+	<name>key-format-java</name>
 
 	<issueManagement>
 		<url>https://github.com/azuzi/key-formats-java/issues</url>
@@ -87,7 +87,7 @@
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>0.5.1</version>
 				<configuration>
-					<includeCommits>${Current.*},${New.*}</includeCommits>
+					<!--includeCommits>Current.*</includeCommits-->
 					<nextRelease>Last Release ${project.version}</nextRelease>
 				</configuration>
 			</plugin>

@@ -4,7 +4,6 @@
 ## {{name}}
     {{#commits}}
 * {{#extensions.pullRequest}}[PR #{{id}}]({{link}}) {{> jira}}{{/extensions.pullRequest}}{{^extensions.pullRequest}}{{> jira}} [{{shortHash}}]({{commitLink}}){{/extensions.pullRequest}}
-        {{#children}}
     {{/commits}}
 
 {{/tags}}

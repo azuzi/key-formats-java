@@ -89,7 +89,7 @@
 				<configuration>
 					<includeCommits>Current.*</includeCommits>
 					<nextRelease>Last Release ${project.version}</nextRelease>
-					<toRef>HEAD</toRef>
+					<toRef>0.1.x</toRef>
 				</configuration>
 			</plugin>
 			<plugin>

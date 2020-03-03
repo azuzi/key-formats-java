@@ -89,6 +89,7 @@
 				<configuration>
 					<!--includeCommits>Current.*</includeCommits-->
 					<nextRelease>Last Release ${project.version}</nextRelease>
+					<toRef>HEAD</toRef>
 				</configuration>
 			</plugin>
 			<plugin>

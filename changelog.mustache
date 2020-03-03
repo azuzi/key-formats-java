@@ -1,0 +1,9 @@
+# {{reportTitle}}
+
+{{#tags}}
+## {{name}}
+    {{#commits}}
+* {{#extensions.pullRequest}}[PR #{{id}}]({{link}})  [{{shortHash}}]({{commitLink}}){{/extensions.pullRequest}}
+    {{/commits}}
+
+{{/tags}}

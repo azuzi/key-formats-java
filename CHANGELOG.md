@@ -1,6 +1,8 @@
 # Change Log
 
-## Last Release 0.1.14
+## Last Release 0.1.15
+* Change log update [b7d10f6](b7d10f66e4c971475c8eb919724109972a6923d5)
+* Current Release v0.1.14 [478bea2](478bea2fc034823817d3fb1c01ad1d19e8f6a656)
 * Change log update [6fddef2](6fddef2bf5a86aaed2b95a758b3bca6fc4eb9a07)
 * Change log update [c9035f0](c9035f03feade172b3b0de7761715fbfcbed0b9d)
 * Change log update [4261a01](4261a0112cdbe200722a51024f45297ee21181e4)

@@ -3,7 +3,8 @@
 {{#tags}}
 ## {{name}}
     {{#commits}}
-* {{#extensions.pullRequest}}[PR #{{id}}]({{link}})  [{{shortHash}}]({{commitLink}}){{/extensions.pullRequest}}
+* {{#extensions.pullRequest}}[PR #{{id}}]({{link}}) {{> jira}}{{/extensions.pullRequest}}{{^extensions.pullRequest}}{{> jira}} [{{shortHash}}]({{commitLink}}){{/extensions.pullRequest}}
+        {{#children}}
     {{/commits}}
 
 {{/tags}}

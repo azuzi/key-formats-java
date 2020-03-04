@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="key-formats-java" />
+        <module name="ld-signatures-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="key-formats-java" target="1.8" />
+      <module name="ld-signatures-java" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

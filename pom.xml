@@ -115,57 +115,45 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-			<!--plugin>
+			<plugin>
 				<groupId>se.bjurr.gitchangelog</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>1.61</version>
 				<executions>
 					<execution>
-						<id>GenerateGitChangelog</id>
+						<id>GenerateGitChangelogInlineTemplate</id>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<toRef>HEAD</toRef>
 							<templateContent>
 								<![CDATA[
-# Changelog
-Changelog.
-
+# Git Changelog Maven plugin changelog
+Changelog of key-format-java.
 {{#tags}}
 ## {{name}}
  {{#issues}}
-  {{#hasIssue}}
-   {{#hasLink}}
-### {{name}} [{{issue}}]({{link}}) {{title}} {{#hasIssueType}} *{{issueType}}* {{/hasIssueType}} {{#hasLabels}} {{#labels}} *{{.}}* {{/labels}} {{/hasLabels}}
-   {{/hasLink}}
-   {{^hasLink}}
-### {{name}} {{issue}} {{title}} {{#hasIssueType}} *{{issueType}}* {{/hasIssueType}} {{#hasLabels}} {{#labels}} *{{.}}* {{/labels}} {{/hasLabels}}
-   {{/hasLink}}
-  {{/hasIssue}}
-  {{^hasIssue}}
+  {{#hasLink}}
+### {{name}} [{{issue}}]({{link}}) {{title}}
+  {{/hasLink}}
+  {{^hasLink}}
 ### {{name}}
-  {{/hasIssue}}
-
+  {{/hasLink}}
   {{#commits}}
-**{{{messageTitle}}}**
-
-{{#messageBodyItems}}
- * {{.}}
-{{/messageBodyItems}}
-
-[{{hash}}](https://github.com/{{ownerName}}/{{repoName}}/commit/{{hash}}) {{authorName}} *{{commitTime}}*
+* {{{message}}} [{{hash}}](https://github.com/azuzi/key-format-java/commit/{{hash}}) BY {{authorName}} @ *{{commitTime}}*
 
   {{/commits}}
-
  {{/issues}}
 {{/tags}}
-         ]]>
+]]>
 							</templateContent>
+							<file>CHANGELOG.md</file>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin-->
+			</plugin>
 		</plugins>
 
 	</build>

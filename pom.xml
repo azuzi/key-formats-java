@@ -99,7 +99,7 @@
 				<version>3.0.0-M1</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<!--scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment-->
+					<!--scmReleaseCommitComment>Latest Release @{project.version}</scmReleaseCommitComment   -->
 					<!--scmDevelopmentCommitComment>Next Release ${project.version}</scmDevelopmentCommitComment>
 					<scmCommentPrefix xml:space="preserve">Latest Release ${project.version}</scmCommentPrefix>
 					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals-->
@@ -139,7 +139,7 @@ Changelog of key-format-java.
 * {{name}} [{{issue}}]({{link}}) {{title}}
   {{/hasLink}}
   {{^hasLink}}
-### {{name}}
+* {{name}}
   {{/hasLink}}
   {{#commits}}
 * {{{message}}} [{{hash}}](https://github.com/azuzi/key-formats-java/commit/{{hash}})

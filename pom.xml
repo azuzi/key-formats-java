@@ -136,13 +136,13 @@ Changelog of key-format-java.
 ## {{name}}
  {{#issues}}
   {{#hasLink}}
-### {{name}} [{{issue}}]({{link}}) {{title}}
+* {{name}} [{{issue}}]({{link}}) {{title}}
   {{/hasLink}}
   {{^hasLink}}
 ### {{name}}
   {{/hasLink}}
   {{#commits}}
-* {{{message}}} [{{hash}}](https://github.com/azuzi/key-format-java/commit/{{hash}}) BY {{authorName}} @ *{{commitTime}}*
+* {{{message}}} [{{hash}}](https://github.com/azuzi/key-formats-java/commit/{{hash}})
 
   {{/commits}}
  {{/issues}}
